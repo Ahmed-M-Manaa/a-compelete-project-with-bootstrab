@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.carousel-inner{
+    height: 100vh;
+}
+.carousel-caption{
+ 
+    margin-bottom: 250px;
+}
+.listforicons{
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    font-size: 50px;
+}
+.alert-for-car{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(25, 24, 24);
+}
+.img-div-container{
+    position: relative;
+    height: 500px;
+    width: 100%;
+   background-attachment: fixed;
+   background-size: cover;
+   background-image: url(../imges/asss.jpg);
+}
+.overlay-for-img{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.363);
+}
